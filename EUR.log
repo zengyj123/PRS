@@ -1,0 +1,37 @@
+PLINK v1.90b7.4 64-bit (18 Aug 2024)
+Options in effect:
+  --bfile EUR.QC
+  --extract EUR.valid.snp
+  --out EUR
+  --q-score-range range_list SNP.pvalue
+  --score Height.QC.Transformed 3 4 12 header
+
+Hostname: localhost.localdomain
+Working directory: /home/zengyujia
+Start time: Fri Sep 27 00:48:32 2024
+
+Random number seed: 1727369312
+1819 MB RAM detected; reserving 909 MB for main workspace.
+489805 variants loaded from .bim file.
+483 people (232 males, 251 females) loaded from .fam.
+--extract: 193758 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 483 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+193758 variants and 483 people pass filters and QC.
+Note: No phenotypes present.
+Warning: 305859 lines skipped in --score file (305859 due to variant ID
+mismatch, 0 due to allele code mismatch); see EUR.nopred for details.
+--score: 193758 valid predictors loaded.
+Warning: 305860 lines skipped in --q-score-range data file.
+EUR.0.001.profile written.
+EUR.0.05.profile written.
+EUR.0.1.profile written.
+EUR.0.2.profile written.
+EUR.0.3.profile written.
+EUR.0.4.profile written.
+EUR.0.5.profile written.
+--score: 7 ranges processed.
+
+End time: Fri Sep 27 00:48:34 2024
